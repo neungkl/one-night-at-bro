@@ -1,0 +1,112 @@
+# lattice-scale --inv-acoustic-scale=14 "ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/14.1.0.tra 
+# Started at Tue May  1 09:03:12 UTC 2018
+#
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/14.1.0.tra 
+lattice-scale --inv-acoustic-scale=14 'ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|' ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0000, best cost 34.673 + -2.52697 = 32.1461 over 313 frames.
+0000_0000 สลับ กล้อง ไป ที่ ระเบียง ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0001, best cost 35.5488 + -2.96622 = 32.5825 over 362 frames.
+0000_0001 ปิด ประตู ด้าน ใต้ ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0002, best cost 33.3874 + -5.8229 = 27.5645 over 285 frames.
+0000_0002 สลับ กล้อง ไป ที่ ระเบียง ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0003, best cost 24.4451 + -12.0372 = 12.4079 over 293 frames.
+0000_0003 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0004, best cost 38.6754 + 8.93744 = 47.6128 over 377 frames.
+0000_0004 สลับ กล้อง ไป ที่ ห้องนอน ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0005, best cost 40.1885 + -23.6559 = 16.5325 over 452 frames.
+0000_0005 สลับ กล้อง ไป ที่ ห้องนอน ด้าน ซ้าย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0006, best cost 40.1438 + -2.53819 = 37.6056 over 446 frames.
+0000_0006 สลับ กล้อง ไป ที่ ห้องนอน ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0007, best cost 41.0723 + -1.34607 = 39.7262 over 407 frames.
+0000_0007 สลับ กล้อง ไป ที่ ห้องนอน ด้าน ซ้าย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0008, best cost 23.8723 + -2.80329 = 21.069 over 268 frames.
+0000_0008 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0000_0009, best cost 36.3319 + -5.46011 = 30.8718 over 439 frames.
+0000_0009 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0000, best cost 23.2199 + -4.58768 = 18.6322 over 221 frames.
+0001_0000 เปิด ประตู ด้าน ใต้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0001, best cost 36.4219 + 18.7759 = 55.1978 over 351 frames.
+0001_0001 สลับ กล้อง ไป ที่ ระเบียง ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0002, best cost 23.2454 + -7.96368 = 15.2818 over 212 frames.
+0001_0002 เปิด ประตู ด้าน ใต้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0003, best cost 37.3857 + 7.72121 = 45.1069 over 295 frames.
+0001_0003 สลับ กล้อง ไป ที่ ห้องนอน ด้าน ซ้าย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0004, best cost 42.3179 + 10.0836 = 52.4015 over 323 frames.
+0001_0004 สลับ กล้อง ไป ที่ ระเบียง ด้าน ขวา ชั้น หนึ่ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0005, best cost 22.1816 + -19.3038 = 2.8778 over 239 frames.
+0001_0005 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0006, best cost 34.1796 + 11.2761 = 45.4557 over 258 frames.
+0001_0006 สลับ กล้อง ไป ที่ ระเบียง ชั้น หนึ่ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0007, best cost 34.4244 + 7.63905 = 42.0634 over 305 frames.
+0001_0007 สลับ กล้อง ไป ที่ ระเบียง ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0008, best cost 35.6806 + 2.39011 = 38.0707 over 305 frames.
+0001_0008 สลับ กล้อง ไป ที่ ระเบียง ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0001_0009, best cost 22.2789 + -8.79459 = 13.4843 over 212 frames.
+0001_0009 เปิด ประตู ด้าน ใต้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0000, best cost 16.4356 + -25.9172 = -9.48158 over 274 frames.
+0002_0000 สลับ กล้อง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0001, best cost 16.5246 + -22.8099 = -6.28523 over 245 frames.
+0002_0001 สลับ กล้อง 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 50 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0002, best cost 44.2199 + -8.89337 = 35.3265 over 454 frames.
+0002_0002 สลับ กล้อง ไป ที่ ห้องนอน ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0003, best cost 32.9046 + -27.1999 = 5.70469 over 359 frames.
+0002_0003 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0004, best cost 42.1006 + 7.72445 = 49.825 over 422 frames.
+0002_0004 สลับ กล้อง ไป ที่ ห้องนอน ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0005, best cost 41.7256 + -11.8893 = 29.8364 over 349 frames.
+0002_0005 สลับ กล้อง ไป ที่ ห้องนอน ด้าน เหนือ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0006, best cost 38.9009 + 5.22643 = 44.1273 over 401 frames.
+0002_0006 สลับ กล้อง ไป ที่ ห้องนอน ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0007, best cost 45.1937 + -16.5857 = 28.608 over 416 frames.
+0002_0007 สลับ กล้อง ไป ที่ ห้องนอน ชั้น สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0008, best cost 16.3776 + -1.50397 = 14.8737 over 188 frames.
+0002_0008 เปิด ไฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0002_0009, best cost 26.7662 + 4.73199 = 31.4982 over 253 frames.
+0002_0009 เปิด ประตู ด้าน ใต้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0000, best cost 16.7551 + -12.9755 = 3.77959 over 236 frames.
+0003_0000 สลับ กล้อง ไป 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0001, best cost 36.3011 + -6.47543 = 29.8256 over 364 frames.
+0003_0001 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0002, best cost 21.5552 + 0.103173 = 21.6584 over 200 frames.
+0003_0002 ปิด ประตู ด้าน ขวา 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 50 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0003, best cost 31.1268 + -3.01517 = 28.1117 over 233 frames.
+0003_0003 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0004, best cost 21.6107 + 3.42809 = 25.0388 over 184 frames.
+0003_0004 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0005, best cost 35.5752 + -18.1953 = 17.3799 over 371 frames.
+0003_0005 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0006, best cost 33.3169 + -18.526 = 14.7909 over 332 frames.
+0003_0006 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0007, best cost 34.598 + -13.1264 = 21.4716 over 258 frames.
+0003_0007 สลับ กล้อง ไป ที่ ระเบียง ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0008, best cost 21.7226 + -4.65456 = 17.0681 over 201 frames.
+0003_0008 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0003_0009, best cost 34.5517 + 6.17573 = 40.7274 over 320 frames.
+0003_0009 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0000, best cost 21.5053 + -17.0089 = 4.49635 over 200 frames.
+0004_0000 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0001, best cost 22.8887 + 1.81115 = 24.6998 over 252 frames.
+0004_0001 ปิด ประตู ด้าน เหนือ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0002, best cost 23.5305 + -12.0484 = 11.4821 over 282 frames.
+0004_0002 ปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0003, best cost 24.1949 + -8.61675 = 15.5781 over 269 frames.
+0004_0003 ปิด ประตู ด้าน เหนือ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0004, best cost 15.4672 + -15.8784 = -0.411281 over 191 frames.
+0004_0004 สลับ กล้อง ไป 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0005, best cost 23.4363 + -4.62564 = 18.8106 over 278 frames.
+0004_0005 ปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0006, best cost 21.2869 + -12.3853 = 8.90167 over 177 frames.
+0004_0006 เปิด ประตู ด้าน ขวา 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0007, best cost 23.42 + -9.20395 = 14.2161 over 256 frames.
+0004_0007 ปิด ประตู ด้าน ซ้าย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0008, best cost 32.2161 + -4.61209 = 27.604 over 303 frames.
+0004_0008 สลับ กล้อง ไป ที่ ห้องครัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance 0004_0009, best cost 15.6797 + -0.599104 = 15.0805 over 136 frames.
+0004_0009 เปิด ไฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 0.0820095 = 0.101006 [graph] + -0.018997 [acoustic] over 14767 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 50 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue May  1 09:03:12 UTC 2018, elapsed time 0 seconds

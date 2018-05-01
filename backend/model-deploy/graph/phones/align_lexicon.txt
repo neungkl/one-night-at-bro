@@ -1,0 +1,24 @@
+!SIL !SIL SIL_S
+<eps> <eps> SIL
+กล้อง กล้อง kl_B @_I ng^_E
+ขวา ขวา khw_B aa_E
+ชั้น ชั้น ch_B a_I n^_E
+ซ้าย ซ้าย s_B aa_I j^_E
+ด้าน ด้าน d_B aa_I n^_E
+ที่ ที่ th_B ii_E
+ประตู ประตู pr_B a_I t_I uu_E
+ปิด ปิด p_B i_I t^_E
+ฝั่ง ฝั่ง f_B a_I ng^_E
+ระเบียง ระเบียง r_B a_I b_I iia_I ng^_E
+สลับ สลับ s_B a_I l_I a_I p^_E
+สอง สอง s_B @@_I ng^_E
+หนึ่ง หนึ่ง n_B v_I ng^_E
+ห้องครัว ห้องครัว h_B @_I ng^_I khr_I uua_E
+ห้องนอน ห้องนอน h_B @_I ng^_I n_I @@_I n^_E
+ห้องนั่งเล่น ห้องนั่งเล่น h_B @_I ng^_I n_I a_I ng^_I l_I e_I n^_E
+ห้องน้ำ ห้องน้ำ h_B @_I ng^_I n_I aa_I m^_E
+เปิด เปิด p_B qq_I t^_E
+เหนือ เหนือ n_B vva_E
+ใต้ ใต้ t_B aa_I j^_E
+ไป ไป p_B a_I j^_E
+ไฟ ไฟ f_B a_I j^_E

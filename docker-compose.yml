@@ -1,0 +1,7 @@
+version: '3'
+services:
+  asr:
+    build: ./backend
+    ports:
+      - "8080:80"
+    tty: true
