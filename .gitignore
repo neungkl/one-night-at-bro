@@ -1,0 +1,2 @@
+backend/model-deploy/**/.*
+backend/model-deploy/decode_dev/**
