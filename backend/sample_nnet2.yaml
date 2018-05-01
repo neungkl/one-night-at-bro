@@ -5,11 +5,11 @@ decoder:
     # All the properties nested here correspond to the kaldinnet2onlinedecoder GStreamer plugin properties.
     # Use gst-inspect-1.0 ./libgstkaldionline2.so kaldinnet2onlinedecoder to discover the available properties
     use-threaded-decoder:  true
-    model : opt/models/newmodel/final.mdl
-    word-syms : opt/models/newmodel/words.txt
-    fst : opt/models/newmodel/HCLG.fst
-    mfcc-config : opt/models/newmodel/conf/mfcc.conf
-    ivector-extraction-config : opt/models/newmodel/conf/ivector_extractor.server.conf
+    model : exp/nnet2_online/final.mdl
+    word-syms : exp/nnet2_online/graph/words.txt
+    fst : exp/nnet2_online/graph/HCLG.fst
+    mfcc-config : exp/nnet2_online/conf/mfcc.conf
+    ivector-extraction-config : exp/nnet2_online/conf/ivector_extractor.conf
     max-active: 10000
     beam: 10.0
     lattice-beam: 6.0
