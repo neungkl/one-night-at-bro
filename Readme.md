@@ -1,4 +1,4 @@
-👻 One Night At Bro's
+One Night At Bro's
 ===
 
 ![One Night At Bro's](document/preview.png)
@@ -21,7 +21,7 @@ This game is interact with your voice.
 There are several commands that you should try.
 
 - "เปิดไฟ" – Open the light in active camera's room to banish the ghost.
-- "สลับ กล้อง ไป ที่ <room> <floor>" – Change the active camera's room. (Some rooms require the floor number to distinguish)
+- "สลับ กล้อง ไป ที่ <room> <floor>" – Change the active camera's room. (Some room requires the floor number to distinguish)
 - "สลับ กล้อง ไป ที่ <floor> <room>" – Same as above.
 - "ปิด ประตู ฝั่ง <direction>" - Close the door in active camera's room.
 - "ปิด ประตู ด้าน <direction>" – Same as above.
