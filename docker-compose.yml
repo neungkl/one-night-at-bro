@@ -1,7 +1,10 @@
 version: '3'
 services:
-  asr:
+  backend:
     build: ./backend
-    ports:
-      - "8080:80"
     tty: true
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8000:8000"
