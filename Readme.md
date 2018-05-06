@@ -3,7 +3,7 @@ One Night At Bro's
 
 ![One Night At Bro's](document/preview.png)
 
-> Automatic Speech Recognition Project Demo
+> This project is a part of automatic speech recognition final project
 
 This is an horror game with interactive voice command.
 You are the player that sitted in bedroom in 1st floor (ห้องนอน F1).
